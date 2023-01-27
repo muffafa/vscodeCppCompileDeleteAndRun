@@ -1,7 +1,7 @@
 {
     "tasks": [
         {
-            "label": "✨g++.exe etkin dosyayı derle",
+            "label": "✨g++.exe etkin dosyayi derle",
             "command": "C:\\MinGW\\bin\\g++.exe",
             "args": [
                 "-g",
@@ -11,11 +11,11 @@
             ],
         },
         {
-            "label": "🏃Etkin dosyayı çalıştır",
+            "label": "🏃Etkin dosyayi çaliştir",
             "command": "${fileDirname}\\${fileBasenameNoExtension}.exe",
         },
         {
-            "label": "❌Etkin dosyanın exesini sil",
+            "label": "❌Etkin dosyanin exesini sil",
             "type": "shell",
             "command": "del",
             "args": [
